@@ -1,1 +1,2 @@
-# Tạo 1 activity mới trong Android Studio - Java
+# Làm quen với Android Studio
+![](/Images/photomain.jpg)

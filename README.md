@@ -25,11 +25,11 @@
   <img src="Images/6.png">
 </p>
 - Từ từ, file Java này chưa được gọi là một Activity, phải kế thừa nó trong thư viện Acompat Activity 
--> import androidx.appcompat.app.AppCompatActivity;
+- > import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity{ //đã được thêm extends AppcompatActivity
+> public class MainActivity extends AppCompatActivity{ //đã được thêm extends AppcompatActivity
 
-} 
+> } 
 
 
 

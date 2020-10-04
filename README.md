@@ -19,13 +19,13 @@
 <p align="center">
   <img src="Images/5.png">
 </p>
-##Phần viết CODE
+## Phần viết CODE
 - Sau khi tạo mới 1 Class, Android Studio nó trông giống như thế này:
 <p align="center">
   <img src="Images/6.png">
 </p>
 - Từ từ, file Java này chưa được gọi là một Activity, phải kế thừa nó trong thư viện Acompat Activity 
-- > import androidx.appcompat.app.AppCompatActivity;
+- >  import androidx.appcompat.app.AppCompatActivity;
 
 > public class MainActivity extends AppCompatActivity{ //đã được thêm extends AppcompatActivity
 

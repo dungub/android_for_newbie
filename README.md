@@ -11,4 +11,4 @@
 <p align="center">
   <img src="Images/3.png">
 </p>
-
+- Nhấn chuột phải, chọn #####New>JavaClass

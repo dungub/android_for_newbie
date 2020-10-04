@@ -1,1 +1,1 @@
-# android_for_newbie
+# Tạo 1 activity mới trong Android Studio - Java

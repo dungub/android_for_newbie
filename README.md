@@ -33,6 +33,56 @@
 > public class MainActivity extends AppCompatActivity{ //đã được thêm extends AppcompatActivity
 
 > } 
+- Thêm thuộc tính onCreate
+> import android.os.Bundle;            // Nhớ phải import 2 thư viện này
+> import androidx.annotation.Nullable; // ****************************
+> @Override
+> protected void onCreate(@Nullable Bundle savedInstanceState) {
+> super.onCreate(savedInstanceState);
+> }
+
+- Thêm phương thức setContentView
+> setContentView(R.layout.main_activity);  
+
+- Từ từ, hình như thiếu gì đó, à, file XML của layout
+Ta tạo 1 thư mục mang tên layout trong Drawable
+<p align="center">
+  <img src="Images/7.png">
+</p>
+- Tạo 1 file XML có tên là main_activity (thật ra tên nào cũng được nhưng phải khai báo trong setContentView)
+
+<p align="center">
+  <img src="Images/8.png">
+</p>
+
+- À quên mất :)) Activity này chưa chạy được do chưa được định nghĩa trong Android Manifest
+Tìm đến file AndroidManifest.xml trong thư mục manifest
+<p align="center">
+  <img src="Images/9.png">
+</p>
+- Thêm dòng này trong thẻ Application
+> <activity android:name=".MainActivity" android:label="@string/app_name">
+>             <intent-filter>
+>                 <action android:name="android.intent.action.MAIN"/>
+>                <category android:name="android.intent.category.LAUNCHER"/>
+>             </intent-filter>
+>         </activity>
+Để cho dễ hình dung hơn thì xem hình dưới đây
+<p align="center">
+  <img src="Images/10.png">
+</p>
+## Chạy thử App
+- Chọn máy đã được đặt sẵn chế độ debug, nhưng nhớ là phải có kết nối với PC và Android Studio nhận diện ra máy đó
+<p align="center">
+  <img src="Images/11.png"></p>
+
+<p align="center">
+  <img src="Images/12.png"></p>
+
+
+
+
+
 
 
 

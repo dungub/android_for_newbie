@@ -34,8 +34,8 @@
 
 > } 
 - Thêm thuộc tính onCreate
-> import android.os.Bundle;            // Nhớ phải import 2 thư viện này \n
-> import androidx.annotation.Nullable; \n
+> import android.os.Bundle;            // Nhớ phải import 2 thư viện này 
+> import androidx.annotation.Nullable; 
 > @Override
 > protected void onCreate(@Nullable Bundle savedInstanceState) {
 > super.onCreate(savedInstanceState);
@@ -62,12 +62,12 @@ Tìm đến file AndroidManifest.xml trong thư mục manifest
 </p>
 
 - Thêm dòng này trong thẻ Application
-> ```<activity android:name=".MainActivity" android:label="@string/app_name">``` \n
+> ```<activity android:name=".MainActivity" android:label="@string/app_name">``` 
 > ```<intent-filter>``` \n
-> ```<action android:name="android.intent.action.MAIN"/>``` \n
-> ```<category android:name="android.intent.category.LAUNCHER"/>``` \n
-> ```</intent-filter>``` \n
-> ```</activity>``` \n
+> ```<action android:name="android.intent.action.MAIN"/>``` 
+> ```<category android:name="android.intent.category.LAUNCHER"/>``` 
+> ```</intent-filter>``` 
+> ```</activity>``` 
 
 Để cho dễ hình dung hơn thì xem hình dưới đây
 <p align="center">

@@ -61,7 +61,7 @@ Tìm đến file AndroidManifest.xml trong thư mục manifest
   <img src="Images/9.png">
 </p>
 - Thêm dòng này trong thẻ Application
-> \<activity android:name=".MainActivity" android:label="@string/app_name">
+> <pre><code><activity android:name=".MainActivity" android:label="@string/app_name"></code></pre>
 >        \<intent-filter></pre>
 >                 <action android:name="android.intent.action.MAIN"/>
 >                <category android:name="android.intent.category.LAUNCHER"/>

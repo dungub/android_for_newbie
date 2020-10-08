@@ -62,12 +62,12 @@ Tìm đến file AndroidManifest.xml trong thư mục manifest
 </p>
 
 - Thêm dòng này trong thẻ Application
-> ```xml<activity android:name=".MainActivity" android:label="@string/app_name">```
-> ```xml<intent-filter>```
-> ```xml<action android:name="android.intent.action.MAIN"/>```
-> ```xml<category android:name="android.intent.category.LAUNCHER"/>```
-> ```xml</intent-filter>```
-> ```xml</activity>```
+> ```<activity android:name=".MainActivity" android:label="@string/app_name">``` \n
+> ```<intent-filter>``` \n
+> ```<action android:name="android.intent.action.MAIN"/>``` \n
+> ```<category android:name="android.intent.category.LAUNCHER"/>``` \n
+> ```</intent-filter>``` \n
+> ```</activity>``` \n
 
 Để cho dễ hình dung hơn thì xem hình dưới đây
 <p align="center">

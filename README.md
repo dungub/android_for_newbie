@@ -73,7 +73,9 @@ Tìm đến file AndroidManifest.xml trong thư mục manifest
 <p align="center">
   <img src="Images/10.png">
 </p>
+
 ## Chạy thử App
+
 - Chọn máy đã được đặt sẵn chế độ debug, nhưng nhớ là phải có kết nối với PC và Android Studio nhận diện ra máy đó
 <p align="center">
   <img src="Images/11.png"></p>
@@ -81,11 +83,7 @@ Tìm đến file AndroidManifest.xml trong thư mục manifest
 <p align="center">
   <img src="Images/12.png"></p>
 
-```xml
-<myxml>
-   <someElement />  
-</myxml>
-```
+
 
 
 

@@ -35,10 +35,15 @@
 > } 
 - Thêm thuộc tính onCreate
 > import android.os.Bundle;            // Nhớ phải import 2 thư viện này 
+
 > import androidx.annotation.Nullable; 
+
 > @Override
+
 > protected void onCreate(@Nullable Bundle savedInstanceState) {
+
 > super.onCreate(savedInstanceState);
+
 > }
 
 - Thêm phương thức setContentView
@@ -63,10 +68,15 @@ Tìm đến file AndroidManifest.xml trong thư mục manifest
 
 - Thêm dòng này trong thẻ Application
 > ```<activity android:name=".MainActivity" android:label="@string/app_name">``` 
+ 
 > ```<intent-filter>``` 
+ 
 > ```<action android:name="android.intent.action.MAIN"/>``` 
+
 > ```<category android:name="android.intent.category.LAUNCHER"/>``` 
+
 > ```</intent-filter>``` 
+
 > ```</activity>``` 
 
 Để cho dễ hình dung hơn thì xem hình dưới đây

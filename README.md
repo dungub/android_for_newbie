@@ -49,8 +49,8 @@ Ta tạo 1 thư mục mang tên layout trong Drawable
 <p align="center">
   <img src="Images/7.png">
 </p>
-- Tạo 1 file XML có tên là main_activity (thật ra tên nào cũng được nhưng phải khai báo trong setContentView)
 
+- Tạo 1 file XML có tên là main_activity (thật ra tên nào cũng được nhưng phải khai báo trong setContentView)
 <p align="center">
   <img src="Images/8.png">
 </p>
